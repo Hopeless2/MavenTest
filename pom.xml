@@ -18,6 +18,12 @@
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
+    <packaging>pom</packaging>
+    <modules>
+        <module>db</module>
+        <module>api</module>
+        <module>service</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -73,10 +79,4 @@
         </pluginManagement>
     </build>
 
-    <packaging>pom</packaging>
-    <modules>
-        <module>db</module>
-        <module>api</module>
-        <module>service</module>
-    </modules>
 </project>
